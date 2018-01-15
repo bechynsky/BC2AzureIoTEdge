@@ -1,1 +1,3 @@
 # BC2AzureIoTEdge
+
+This code is designed to run in Docker container. It is module for [Azure IoT Edge](https://azure.microsoft.com/en-us/services/iot-edge/). It read data from [BigClown USB dongle](https://www.bigclown.com/doc/tutorials/playground-setup/).
