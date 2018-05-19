@@ -116,10 +116,10 @@ namespace BC
                 return;
             }
 
-            string key = topicParts[4];
+            string sensor = topicParts[4];
             string value = System.Text.Encoding.Default.GetString(e.Message);
 
-            string data = "{'" + key + "':" + value + "}";
+            string data = "{'sensor':'" + sensor + "','value':" + value + "}";
 
             if (_deviceClient == null)
             {
